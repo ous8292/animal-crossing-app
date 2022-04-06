@@ -38,12 +38,7 @@ function Home() {
     </article>
   ));
 
-  return (
-    <div>
-      <h1>Home Page</h1>
-      {villagerCards}
-    </div>
-  );
+  return <div>{villagerCards}</div>;
 }
 
 export default Home;
