@@ -38,7 +38,16 @@ function Home() {
     </article>
   ));
 
-  return <div>{villagerCards}</div>;
+  let gridStyle = {
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr 1fr",
+  };
+
+  return (
+    <div>
+      <div style={gridStyle}>{villagerCards}</div>
+    </div>
+  );
 }
 
 export default Home;
